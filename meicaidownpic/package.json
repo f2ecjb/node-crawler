@@ -1,0 +1,15 @@
+{
+  "name": "auditoriumServer",
+  "version": "1.0.0",
+  "description": "Another awesome nodejs server",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_ENV=local && node app.js",
+    "dev": "set NODE_ENV=dev && node app.js",
+    "production": "set NODE_ENV=production && node app.js"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.23",
+    "request": "^2.79.0"
+  }
+}
